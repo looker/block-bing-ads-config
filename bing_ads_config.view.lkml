@@ -7,6 +7,7 @@ include: "/app-marketing-bing-ads/bi_campaign_metrics_spend.dashboard"
 include: "/app-marketing-bing-ads/bi_campaign_metrics_conversions.dashboard"
 include: "/app-marketing-bing-ads/bi_campaign_metrics_impressions.dashboard"
 include: "/app-marketing-bing-ads/bi_campaign_metrics_clicks.dashboard"
+include: "/app-marketing-bing-ads/bing_ads_base.dashboard"
 
 # TODO: update Bing Ads schema
 datagroup: bing_ads_etl_datagroup {
