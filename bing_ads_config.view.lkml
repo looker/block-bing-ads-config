@@ -2,11 +2,11 @@
 
 include: "/app-marketing-bing-ads-adapter/*.view"
 include: "/app-marketing-bing-ads/*.view"
-include: "/app-marketing-bing-ads/block_bing_overview.dashboard"
-include: "/app-marketing-bing-ads/block_bing_spend.dashboard"
-include: "/app-marketing-bing-ads/block_bing_conversions.dashboard"
-include: "/app-marketing-bing-ads/block_bing_impressions.dashboard"
-include: "/app-marketing-bing-ads/block_bing_clicks.dashboard"
+include: "/app-marketing-bing-ads/bing_overview.dashboard"
+include: "/app-marketing-bing-ads/bi_campaign_metrics_spend.dashboard"
+include: "/app-marketing-bing-ads/bi_campaign_metrics_conversions.dashboard"
+include: "/app-marketing-bing-ads/bi_campaign_metrics_impressions.dashboard"
+include: "/app-marketing-bing-ads/bi_campaign_metrics_clicks.dashboard"
 
 # TODO: update Bing Ads schema
 datagroup: bing_ads_etl_datagroup {
