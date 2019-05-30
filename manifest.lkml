@@ -9,7 +9,7 @@ remote_dependency: app-marketing-common {
 # LookML to map the ETL and data warehouse for Bing Ads
 remote_dependency: app-marketing-bing-ads {
   url: "git://github.com/looker/app-marketing-bing-ads"
-  ref: "ade1431a4f57a3b2dd29a45bb14be1bbb20cfca3"
+  ref: "18b7b6a00639729407caf79097890e195119cb73"
 }
 
 remote_dependency: app-marketing-bing-ads-adapter {
