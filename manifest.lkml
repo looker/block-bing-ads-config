@@ -13,12 +13,12 @@ constant: BING_SCHEMA {
 # LookML to map the ETL and data warehouse for Bing Ads
 remote_dependency: app-marketing-bing-ads {
   url: "git://github.com/looker/app-marketing-bing-ads"
-  ref: "18b7b6a00639729407caf79097890e195119cb73"
+  ref: "0175904f54a730ba38a77c71608147afa83051ae"
 }
 
 remote_dependency: app-marketing-bing-ads-adapter {
   url: "git://github.com/looker/app-marketing-bing-ads-fivetran-bigquery"
-  ref: "e30b8960f20486c6a96fff74ffccd26d65eac210"
+  ref: "c3e4b40dc43e95dc0bb9358eb8361d7647d210bf"
 }
 
 # Library of common ad metrics definitions and date periods
