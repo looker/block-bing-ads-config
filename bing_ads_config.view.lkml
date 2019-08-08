@@ -6,6 +6,15 @@ datagroup: bing_ads_etl_datagroup {
   max_cache_age: "24 hours"
 }
 
+view: bing_ads_config {
+  extension: required
+
+  dimension: bing_ads_schema {
+    hidden: yes
+    sql:@{BING_SCHEMA};;
+  }
+}
+
 # Customize measure definitions in this view.
 view: ad_metrics_base_config {
   extends: [ad_metrics_base_template]
