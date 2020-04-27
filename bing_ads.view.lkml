@@ -31,6 +31,7 @@ view: bing_ad_metrics_base_config {
 explore: bing_ad_impressions_config {
   extends: [bing_ad_impressions_template]
   extension: required
+  hidden: no
 }
 
 view: bing_ad_impressions_config {
@@ -42,6 +43,7 @@ view: bing_ad_impressions_config {
 explore: bing_ad_impressions_campaign_config {
   extends: [bing_ad_impressions_campaign_template]
   extension: required
+  hidden: no
 }
 
 view: bing_ad_impressions_campaign_config {
